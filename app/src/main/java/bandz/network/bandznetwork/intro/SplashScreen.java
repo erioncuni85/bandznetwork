@@ -1,5 +1,6 @@
 package bandz.network.bandznetwork.intro;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import bandz.network.bandznetwork.R;
+import bandz.network.bandznetwork.menu.MainMenu;
 
 public class SplashScreen extends FancyWalkthroughActivity {
 
@@ -59,7 +61,12 @@ public class SplashScreen extends FancyWalkthroughActivity {
 
     @Override
     public void onFinishButtonPressed() {
-
+        gotomain();
     }
+    public void gotomain(){
 
+        Intent intent = new Intent(SplashScreen.this, MainMenu.class);
+        startActivity(intent);
+        finish();
+    }
 }

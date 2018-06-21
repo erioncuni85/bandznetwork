@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Bandz Network</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="vpn">VPN</string>
+    <string name="mesh">Mesh</string>
+    <string name="wallet">Wallet</string>
+    <string name="more">More</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
